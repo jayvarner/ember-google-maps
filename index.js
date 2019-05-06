@@ -29,8 +29,7 @@ function difference(a, b) {
 }
 
 const dependencies = {
-  'circle': ['marker'],
-  'info-window': ['detect-render']
+  'circle': ['marker']
 };
 
 module.exports = {
