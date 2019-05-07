@@ -37,6 +37,6 @@ export default MapComponent.extend({
     }
 
 
-    set(this, 'mapComponent', new google.maps.DirectionsRenderer(options));
+    set(this, 'mapComponent', directionsDisplay);
   }
 });
